@@ -15,5 +15,10 @@ public:
   'z' and any ASCII characters are allowed.
   */
   int count_leading_characters(string);
+  
+  /*
+  return whether phrase has at least one upper and at leaset one lower
+  */
+  bool has_mixed_Case(string);
 };
 #endif
